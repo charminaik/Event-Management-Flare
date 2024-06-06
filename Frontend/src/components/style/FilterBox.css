@@ -1,0 +1,47 @@
+.filter-card {
+    width: 500px;
+    height: 150px;
+    background-color:#fff7ea;
+    ;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+    margin-top:60px;
+    border: 1px solid #a2783a;
+  }
+  .wrapper {
+    width: 500px;
+    height: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+  }
+  .filter-card form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .month label {
+    font-size: 16px !important;
+  }
+  .month select {
+    font-size: 16px !important;
+  }
+  .filter-card button {
+    padding: 12px 28px 12px 28px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  .filter-card button:hover {
+    background-color: rgb(9, 140, 16);
+  }
+  
